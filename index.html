@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -58,7 +58,7 @@
         </div>
     </header>
     <section>
-        <div class="container">
+        <div class="container tarta">
             <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
                 <div class="col">
                     <div class="card">
@@ -104,9 +104,39 @@
         </div>
     </section>
     <section>
-        <div class="container">
-            <div class="row">
-                
+        <div class="container-fluid bg-dark">
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+                <div class="col-12 col-md-12 col-lg-12 titolopage">
+                    <h1>Choose your faith</h1>
+
+                </div>
+                <div class="container tarocchi">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div id="list-example" class="list-group">
+                                <a class="list-group-item list-group-item-action" href="#list-item-1">Il mondo</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-2">La torre</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-3">Il re</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-4">La regina</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                                class="scrollspy-example" tabindex="0">
+                                <h4 id="list-item-1">The world</h4>
+                                <p><img src="img/mondo.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="il mondo" ></p>
+                                <h4 id="list-item-2">The tower</h4>
+                                <p><img src="img/torre.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="la torre"></p>
+                                <h4 id="list-item-3">The king</h4>
+                                <p><img src="img/re.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="il re"></p>
+                                <h4 id="list-item-4">The queen</h4>
+                                <p><img src="img/regina.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="la regina"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
 

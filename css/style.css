@@ -4,3 +4,26 @@
     font-size: 3rem;
 }
 
+.titolopage{
+    text-align: center;
+    justify-content: center;
+    color: red
+    
+}
+
+.tarocchi{
+    background-color: #c72;
+
+}
+
+.navbar-custom{
+    background-color: #00FF00;
+}
+
+.tarta{
+    background-color: #c72;
+}
+
+body{
+    background-color: aqua;
+}
